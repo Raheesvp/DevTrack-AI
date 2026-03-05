@@ -1,0 +1,2 @@
+﻿src/components/ProgressDashboard.tsx(3,58): error TS6133: 'Legend' is declared but its value is never read.
+src/components/Tracker.tsx(3,16): error TS6133: 'Day' is declared but its value is never read.
