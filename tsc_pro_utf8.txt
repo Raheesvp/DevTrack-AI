@@ -1,0 +1,6 @@
+﻿src/App.tsx(2,36): error TS6133: 'Week' is declared but its value is never read.
+src/App.tsx(3,1): error TS6133: 'ProgressDashboard' is declared but its value is never read.
+src/App.tsx(3,35): error TS2307: Cannot find module './components/ProgressDashboard' or its corresponding type declarations.
+src/App.tsx(9,11): error TS6133: 'Github' is declared but its value is never read.
+src/App.tsx(10,47): error TS6133: 'FileText' is declared but its value is never read.
+src/components/Timeline.tsx(2,34): error TS6133: 'Circle' is declared but its value is never read.
