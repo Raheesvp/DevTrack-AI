@@ -1,50 +1,223 @@
-# React + TypeScript + Vite
+# DevTrack AI
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### Engineering Project Planning & Execution System
 
-Currently, two official plugins are available:
+* DevTrack AI is an AI-powered engineering productivity platform designed to help developers and teams plan, track, and analyze software development projects from idea to completion.
+* The platform combines AI-powered planning, GitHub analytics, and engineering workflow management into a single system that mirrors real-world development processes used in professional software teams.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+# Repository Description (GitHub Overview)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+**DevTrack AI — AI-powered engineering productivity platform that generates project roadmaps, analyzes GitHub commits, and visualizes developer progress using a Clean Architecture .NET backend and React frontend.**
 
-- Configure the top-level `parserOptions` property like this:
+**Alternative shorter version**
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
+AI-powered developer productivity platform for project planning, GitHub analytics, and engineering workflow tracking.
+
+---
+
+# What DevTrack AI Enables
+
+* Generate AI-powered project development plans
+* Track daily engineering progress
+* Analyze GitHub commits and repository activity
+* Manage tasks, sprints, and milestones
+* Visualize engineering productivity and development velocity
+
+---
+
+# Key Features
+
+## AI Development Planning
+
+* AI Project Plan Generator
+* Smart Task Suggestions
+* Time Estimation Engine
+
+---
+
+## Engineering Workflow Tools
+
+* Kanban Task Board
+* Daily Engineering Log
+* Weekly Sprint Planner
+* Milestone Management
+
+---
+
+## GitHub Analytics
+
+* GitHub Commit Analyzer
+* Repository Progress Dashboard
+* Developer Activity Feed
+
+---
+
+## Productivity & Insights
+
+* Burn Down Charts
+* Engineering Productivity Score
+* Progress Heatmap
+* Automated Progress Reports
+
+---
+
+## Documentation Automation
+
+* Auto Documentation Generator
+* README Builder
+* Developer Portfolio Dashboard
+
+---
+
+## Collaboration
+
+* Team Collaboration Workspace
+* Smart Reminders
+* Learning & Reflection Notes
+
+---
+
+# System Architecture
+
+DevTrack AI is designed using **Clean Architecture** and **CQRS pattern** to ensure scalability, maintainability, and testability.
+
+```
+Client (React)
+      ↓
+API Layer (.NET Web API)
+      ↓
+Application Layer (CQRS)
+      ↓
+Domain Layer (Business Logic)
+      ↓
+Infrastructure Layer (EF Core, GitHub API, AI Services)
+      ↓
+Database (PostgreSQL / SQL Server)
 ```
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+---
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+# Architecture Benefits
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
+* Clear separation of concerns
+* Independent domain business logic
+* Scalable integration with external services
+* Maintainable and testable codebase
+
+---
+
+# Tech Stack
+
+## Frontend
+
+* React
+* TypeScript
+* Tailwind CSS
+* Component-based architecture
+
+---
+
+## Backend
+
+* .NET Web API
+* Clean Architecture
+* CQRS Pattern
+* JWT Authentication
+
+---
+
+## Database
+
+* PostgreSQL / SQL Server
+* Entity Framework Core
+
+---
+
+## Integrations
+
+* OpenAI / HuggingFace API
+* GitHub REST API
+
+---
+
+# Project Structure
+
 ```
+src/
+ ├── API
+ ├── Application
+ │   ├── Commands
+ │   ├── Queries
+ │   └── DTOs
+ ├── Domain
+ │   ├── Entities
+ │   ├── ValueObjects
+ │   └── Interfaces
+ ├── Infrastructure
+ │   ├── Persistence
+ │   ├── Repositories
+ │   └── Services
+
+tests/
+ ├── UnitTests
+ └── IntegrationTests
+```
+
+This structure follows **enterprise engineering practices used in scalable .NET systems.**
+
+---
+
+
+
+
+# How to Run the Project
+
+## Clone Repository
+
+```
+git clone https://github.com/yourusername/devtrack-ai.git
+cd devtrack-ai
+```
+
+---
+
+## Run Backend
+
+```
+dotnet restore
+dotnet run
+```
+
+---
+
+
+
+# Images
+
+![Architecture Image](./images/architecture.png)
+
+---
+
+# Links
+
+You may be using **Markdown Live Preview**
+
+https://markdownlivepreview.com/
+
+---
+
+# Tables
+
+| Feature                | Description                              |
+| ---------------------- | ---------------------------------------- |
+| AI Planning            | Generates AI development roadmaps        |
+| GitHub Analytics       | Analyzes commits and repository activity |
+| Kanban Board           | Visual project task management           |
+| Productivity Dashboard | Engineering insights and metrics         |
+
+
+
+
+
