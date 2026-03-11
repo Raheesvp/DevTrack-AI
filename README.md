@@ -7,15 +7,7 @@
 
 ---
 
-# Repository Description (GitHub Overview)
 
-**DevTrack AI — AI-powered engineering productivity platform that generates project roadmaps, analyzes GitHub commits, and visualizes developer progress using a Clean Architecture .NET backend and React frontend.**
-
-**Alternative shorter version**
-
-AI-powered developer productivity platform for project planning, GitHub analytics, and engineering workflow tracking.
-
----
 
 # What DevTrack AI Enables
 
