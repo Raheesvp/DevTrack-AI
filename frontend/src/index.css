@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700;800&display=swap');
+@import "tailwindcss";
+
+:root {
+  --success: #1dbb93;
+  --progress: #2f80ed;
+  --neutral-dark: #d7e2f0;
+  --bg-deep: #edf3fb;
+  --panel: #ffffff;
+  --text-muted: #60708c;
+}
+
+body {
+  margin: 0;
+  font-family: 'Manrope', 'Segoe UI', sans-serif;
+  background-color: var(--bg-deep);
+  background-image:
+    radial-gradient(circle at 12% 18%, rgba(47, 128, 237, 0.16), transparent 28%),
+    radial-gradient(circle at 88% 82%, rgba(29, 187, 147, 0.12), transparent 24%),
+    linear-gradient(rgba(15, 23, 42, 0.04) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(15, 23, 42, 0.04) 1px, transparent 1px);
+  background-size: auto, auto, 38px 38px, 38px 38px;
+  background-position: center, center, center, center;
+  color: #f8fafc;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+@layer components {
+  .glass {
+    background: linear-gradient(140deg, rgba(255, 255, 255, 0.88), rgba(247, 251, 255, 0.84));
+    backdrop-filter: blur(24px);
+    -webkit-backdrop-filter: blur(24px);
+    border: 1px solid rgba(148, 163, 184, 0.25);
+  }
+
+  .text-premium {
+    @apply text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-green-400;
+  }
+
+  .animate-shimmer {
+    background: linear-gradient(90deg,
+        rgba(255, 255, 255, 0) 0%,
+        rgba(255, 255, 255, 0.05) 50%,
+        rgba(255, 255, 255, 0) 100%);
+    background-size: 200% 100%;
+    animation: shimmer 2s infinite;
+  }
+}
+
+.agency-bg {
+  background-color: var(--bg-deep);
+  background-image:
+    radial-gradient(circle at 10% 10%, rgba(47, 128, 237, 0.18), transparent 30%),
+    radial-gradient(circle at 85% 78%, rgba(29, 187, 147, 0.14), transparent 25%),
+    linear-gradient(180deg, rgba(255, 255, 255, 0.92), rgba(236, 244, 255, 0.9));
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+}
+
+::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.05);
+  border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(255, 255, 255, 0.1);
+}

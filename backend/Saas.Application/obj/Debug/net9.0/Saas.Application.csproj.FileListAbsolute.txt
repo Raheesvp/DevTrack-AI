@@ -1,0 +1,16 @@
+C:\Users\DELL\Desktop\saas\backend\Saas.Application\bin\Debug\net9.0\Saas.Application.deps.json
+C:\Users\DELL\Desktop\saas\backend\Saas.Application\bin\Debug\net9.0\Saas.Application.dll
+C:\Users\DELL\Desktop\saas\backend\Saas.Application\bin\Debug\net9.0\Saas.Application.pdb
+C:\Users\DELL\Desktop\saas\backend\Saas.Application\bin\Debug\net9.0\Saas.Domain.dll
+C:\Users\DELL\Desktop\saas\backend\Saas.Application\bin\Debug\net9.0\Saas.Domain.pdb
+C:\Users\DELL\Desktop\saas\backend\Saas.Application\obj\Debug\net9.0\Saas.Application.csproj.AssemblyReference.cache
+C:\Users\DELL\Desktop\saas\backend\Saas.Application\obj\Debug\net9.0\Saas.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\Desktop\saas\backend\Saas.Application\obj\Debug\net9.0\Saas.Application.AssemblyInfoInputs.cache
+C:\Users\DELL\Desktop\saas\backend\Saas.Application\obj\Debug\net9.0\Saas.Application.AssemblyInfo.cs
+C:\Users\DELL\Desktop\saas\backend\Saas.Application\obj\Debug\net9.0\Saas.Application.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Desktop\saas\backend\Saas.Application\obj\Debug\net9.0\Saas.Application.sourcelink.json
+C:\Users\DELL\Desktop\saas\backend\Saas.Application\obj\Debug\net9.0\Saas.App.F0B2BAD3.Up2Date
+C:\Users\DELL\Desktop\saas\backend\Saas.Application\obj\Debug\net9.0\Saas.Application.dll
+C:\Users\DELL\Desktop\saas\backend\Saas.Application\obj\Debug\net9.0\refint\Saas.Application.dll
+C:\Users\DELL\Desktop\saas\backend\Saas.Application\obj\Debug\net9.0\Saas.Application.pdb
+C:\Users\DELL\Desktop\saas\backend\Saas.Application\obj\Debug\net9.0\ref\Saas.Application.dll
